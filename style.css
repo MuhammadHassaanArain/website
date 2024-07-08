@@ -1,0 +1,231 @@
+*{
+   background: silver;
+   
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background:grey;
+
+}
+#icon{
+    margin-left: -570px;
+    color:white;
+    background: grey;
+
+}
+.links{
+    margin-top: 40px;
+    margin-right: -400px;
+    background: grey;
+  
+}
+a{
+   font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-right: 30px;
+    background: grey;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.name{
+    color: grey;
+   font-size: 30px;
+   font-family: cursive;
+}
+.text{
+    margin-right: 150px;
+    margin-left: -100px;
+    height: 500px;
+    margin-top: 120px;
+}
+.intro{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 550px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pic{
+    margin-top: 140px;
+    margin-right: -35px;
+ 
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+img{
+    border-radius: 10%;
+    height: 290px;
+
+}
+button{
+    width: 90px;
+    height: 35px;
+    background:gray;
+    border-radius: 10px;
+    border: 2px,solid,black;
+    font-size: 19px;
+    cursor: pointer;
+   
+    
+}
+.icon > h3 {
+    font-size: 30px;
+    font-family: cursive;
+}
+button :hover {
+    background-color:black; /* Darker blue background on hover */
+    color:white; /* Yellow text on hover */
+    
+}
+
+
+
+
+
+
+
+
+.skillssection :hover {
+    transform: scale(1.1);
+    border-radius:20px ;
+    /* transform: scale(1.1); */
+    }
+
+
+
+
+.skillssection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 320px;
+}
+
+.skillsbox{
+    background: grey;
+    margin-left: 30%;
+    margin-right: 10%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.skillsheading > h3{
+    font-size: 30px;
+    background:grey;
+    color: white;
+    font-family: cursive;
+}
+.skillslist > ul > li {
+    background: grey;
+    margin-top: 17px;
+    font-size:22px;
+    font-family: fantasy;
+}
+.skillslist > ul{
+   background: grey;
+}
+
+
+
+
+
+.name:hover{
+    transform: scale(1.1);
+}
+
+.projectssection:hover{
+    transform: scale(1.1);
+}
+
+.projectssection{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+
+}
+.projectsbox{
+    /* background: grey; */
+    width: 70%;
+    height: auto;
+    background: grey;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: 30%;
+    margin-left: 10%
+    
+}
+.projectsheading{
+    background: grey;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+.projectsheading >  h3 {
+    background: grey;
+}
+.projectslist > ul {
+    background: grey;
+}
+.projectslist > ul > li {
+    background: grey;
+    font-family: fantasy;
+    margin: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactsection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 17px;
+   
+    
+}
+#contact{
+    width: 70%;
+   height: auto;
+    background:grey;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 10%;
+    cursor: pointer;
+    /* transition: transform 0.3s ease-in-out; */
+}
+
+.contactform{
+    background: grey;
+    border-radius: 20px;
+}
+.contactinfo{
+    background: grey;
+}
+.contactheading > h3 {
+    font-size: 30px;
+    font-family: cursive;
+    background: grey;
+}
